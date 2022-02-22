@@ -1,0 +1,33 @@
+.container {
+  background: var(--blue);
+  padding: 2rem 0 8.25rem 0;
+
+  header {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .newTransactionBtn {
+      height: 3rem;
+      padding: 0 2rem;
+
+      background: #6933ff;
+      border: none;
+      border-radius: 5px;
+
+      color: var(--shape);
+      font-weight: 600;
+      font-size: 1rem;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
